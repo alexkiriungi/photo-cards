@@ -62,18 +62,19 @@ body {
     overflow: hidden;
     height: 80px;
     width: 520px;
-    opacity: 0;
+    opacity: 1;
+    padding-bottom: 40px;
     transform: translateY(30px);
     transition-delay: .3s;
     transition: all .3s ease;
 }
 
-.description p {
-    color: #b0b0ba;
+.card > .row > .description > p {
+    color: white;
     padding-top: 5px;
 }
 
-.description h4 {
+.card > .row > .description > h4 {
     text-transform: uppercase;
 }
 
